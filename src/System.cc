@@ -54,8 +54,8 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     cv::FileStorage fsSettings(strSettingsFile.c_str(), cv::FileStorage::READ);
     if(!fsSettings.isOpened())
     {
-       cerr << "Failed to open settings file at: " << strSettingsFile << endl;
-       exit(-1);
+//       cerr << "Failed to open settings file at: " << strSettingsFile << endl;
+//       exit(-1);
     }
 
     //Load ORB Vocabulary
